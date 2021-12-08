@@ -1,0 +1,47 @@
+.header {
+  padding: 50px 0;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 90px;
+  }
+  &-sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 40px;
+    &__in {
+      color: $text-color2;
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+    &__up {
+      border-radius: 100rem;
+      padding: 13px 45px;
+      border: 1px solid;
+      color: $color-primary;
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+  }
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 0 40px;
+  color: inherit;
+  &-link {
+    color: $text-color;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .menu {
+    display: none;
+  }
+  .header {
+    padding-top: 25px;
+    padding-bottom: 0;
+  }
+}

@@ -1,0 +1,32 @@
+.partner {
+  &-image {
+    margin-bottom: 50px;
+  }
+}
+.partner {
+  &-image {
+    margin-bottom: 50px;
+  }
+}
+.img-huge {
+  width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .partner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 16px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .partner-container {
+    display: none;
+  }
+
+  .network-image {
+    margin-top: 50px;
+    width: 100%;
+  }
+}
